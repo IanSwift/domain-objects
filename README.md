@@ -4,7 +4,7 @@ In this project you will find an Email POJO class. While useable, this object ha
 
 Don't look ahead, do the steps in order.
 
-For reference:
+For reference: https://en.wikipedia.org/wiki/Email#Message_header
 
 ### Steps:
 
