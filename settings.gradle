@@ -1,0 +1,4 @@
+rootProject.name = 'domainobjects'
+include 'objects'
+findProject(':objects')?.name = 'domainobjects'
+
