@@ -23,7 +23,7 @@ Cc: <COMMA SEPARTED ORIGINAL CC RECIPIENTS>
 
 <ORIGINAL BODY>
 ```
-5. Remove all setters.
+5. Remove all setters and the noarg constructor.
 6. Add a mandatory contentType field on all emails. If there is not one given, make it "text/plain"
 7. Add a mandatory and auto-generated list of Longs called "References" on all emails. This should be the history of emails in the thread.
 8. Validate email addresses. Allow them to have a name associated with them as well.
