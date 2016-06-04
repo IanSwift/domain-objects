@@ -44,7 +44,7 @@ Cc: <COMMA SEPARTED ORIGINAL CC RECIPIENTS>
 
 * Validate email addresses. Allow them to have a name associated with them as well.
 
-> For an email to be created, the email address must have a name@domain. There is also often a name associated with the email address. When being included in headers it is formatted as "Bob User" <bobby@domain.com>
+> For an email to be created, the email address must have a name@domain. There is also often a name associated with the email address. When being included in headers it is formatted as "Bob User" \<bobby@domain.com\>
 
 
 At this point you can remove your setters and noarg constructor. They are unnecessary.
