@@ -2,16 +2,17 @@
 
 In this project you will find an Email POJO class. While useable, this object has a number of issues that keep it from being as powerful or communicative as it could be. Your goal is to refactor this object in a number of ways. There will be more domain object katas to come, so that you can switch between them in your practice, allowing you to forget the exact details of how you implemented it, before you try again. As always, try and improve upon your implementations from session to session. Looking for bonus points? Test drive your refactor.
 
-Don't look ahead, do the steps in order.
+Do the steps in order.
 
 For reference: https://en.wikipedia.org/wiki/Email#Message_header
 
 ### Steps:
 
-1. Create a constructor for an email to be sent. Autogenerate the sender, date, and id. Assume these emails are being generated for a user with an email address of "mykata@domain.com"
-2. Create a constructor for a reply. As an extra parameter, include an email created from the first constructor with no bcc. Autogenerate the inReplyTo, to, and previously mentioned fields.
-3. Create a constructor for a reply all. Again, include an original email as an extra parameter. Enhance the to with the original emailer, the recipients, and the cc with the cc recipients.
-4. Create a constfor for a forward. We will use google's strategy here. Include the original email as a paremeter. Autogenerate as if it were an original email. Concatenate to the end of the body the following.
+1. Create a private constructor.
+1. Create a public static method email. Autogenerate the sender, date, and id. Assume these emails are being generated for a user with an email address of "mykata@domain.com"
+2. Create a public static method reply. As an extra parameter, include an email created from the first constructor with no bcc. Autogenerate the inReplyTo, to, and previously mentioned fields.
+3. Create a public static method reply all. Again, include an original email as an extra parameter. Enhance the to with the original emailer, the recipients, and the cc with the cc recipients.
+4. Create a public static method forward. We will use google's strategy here. Include the original email as a paremeter. Autogenerate as if it were an original email. Concatenate to the end of the body the following.
 ```
 --------Forwarded message--------
 From: <ORIGINAL EMAIL ADDRESS>
